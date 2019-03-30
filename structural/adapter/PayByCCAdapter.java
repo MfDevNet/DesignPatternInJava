@@ -11,6 +11,6 @@ public class PayByCCAdapter implements PaymentAdapter {
 
     @Override
     public void pay(int amount) {
-    payByCC.pleasePayThePrice(amount);
+    payByCC.sendPayment(amount);
     }
 }
